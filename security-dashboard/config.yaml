@@ -1,13 +1,10 @@
 name: "Security Dashboard"
-slug: "security_dashboard"
-version: "1.0.0"
 description: "Improve your cybersecurity awareness"
-init: false
-ingress: true
-ingress_port: 3000
-image: "ghcr.io/trthingnes/ha-security-addon-{arch}"
+image: "ghcr.io/trthingnes/security-dashboard-{arch}"
 arch:
   - amd64
   - aarch64
-  - armhf
-  - armv7
+slug: "security_dashboard"
+init: false
+ingress: true
+ingress_port: 3000
