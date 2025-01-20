@@ -3,7 +3,7 @@ description: "Improve your cybersecurity awareness"
 
 slug: "security_dashboard"
 image: "ghcr.io/trthingnes/security-dashboard-{arch}"
-version: "1.0.0"
+version: "1.0.1"
 arch:
   - amd64
   - aarch64
