@@ -3,11 +3,11 @@ description: "Improve your cybersecurity awareness"
 
 slug: "security_dashboard"
 image: "ghcr.io/trthingnes/security-dashboard-{arch}"
-version: "1.0.1"
+version: "1.0.2"
 arch:
   - amd64
   - aarch64
   
 init: false
 ingress: true
-ingress_port: 3000
+ingress_port: 8080
