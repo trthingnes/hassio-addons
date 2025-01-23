@@ -1,0 +1,13 @@
+name: "Cybersecurity Awareness Dashboard"
+version: "0.0.1"
+slug: "cybersecurity_awareness_dashboard"
+description: "Improve your cybersecurity awareness in an interactive way"
+arch:
+  - amd64
+  - aarch64
+image: "ghcr.io/trthingnes/cybersecurity-awareness-dashboard-{arch}"
+init: false
+ingress: true
+ingress_port: 8080
+hassio_api: true
+homeassistant_api: true
